@@ -33,7 +33,7 @@ end
     if @group.destroy
       redirect_to groups_path
     end
-end 
+end  
     private
 
     def group_params
