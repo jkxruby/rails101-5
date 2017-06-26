@@ -31,9 +31,10 @@ end
   def destroy
     @group = Group.find(params[:id])
     if @group.destroy
+      flash[:alert] = "Group deleted"
       redirect_to groups_path
     end
-end  
+end
     private
 
     def group_params
