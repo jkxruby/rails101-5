@@ -5,5 +5,6 @@ class Account::PostsController < ApplicationController
   end
 
 
-  
+
+
 end
